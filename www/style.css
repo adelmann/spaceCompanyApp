@@ -1,0 +1,84 @@
+.pointer:hover{
+	cursor: pointer;
+}
+.default, .disabled{
+	cursor: default !important;
+}
+.no-select{
+	-webkit-user-select: none; /* Chrome/Safari */        
+	-moz-user-select: none; /* Firefox */
+	-ms-user-select: none; /* IE10+ */
+}
+
+.red{
+	color: red !important;
+}
+.bold{
+	font-weight:bold;
+	text-decoration: underline;
+}
+.green{
+	color: #00b200 !important;
+}
+
+.theader{
+	font-size:20px;
+}
+
+.achievementTD{
+	padding: 0px;
+	background-color: white !important;
+}
+
+.smallglyph {
+    font-size: 10px;
+}
+
+.glyphicon-exclamation-sign:before{content:"\e101";font-size: 10px;}
+
+#autoSaveTimer {
+    position: absolute;
+    top: 50%;
+    transform: perspective(1px) translateY(-50%);
+    text-align: right;
+    right: 15px;
+}
+
+#loadScreen {
+    position: absolute;
+    width:100%;
+    height:100%;
+    background: url('../img/background.jpg');
+    background-repeat: no-repeat;
+    background-size: initial;
+    background-attachment: fixed
+}
+
+#loadScreen div#staringstuff {
+    font-size:3rem;
+    font-family: 'Orbitron', 'sans-serif';
+    font-weight: lighter;
+    color:#ffffff;
+    line-height:72px;
+    text-align:center;
+    margin: auto;
+    width: 70%;
+    position: relative;
+    top: 50%;
+    transform: perspective(1px) translateY(-50%);
+}
+
+.navbar {
+    border-radius: 0px !important;
+}
+
+#loadLogo {
+    opacity: 1;
+    width:50%;
+    height:50%;
+}
+
+#splashText {
+    width:100%;
+    font-size:2rem;
+}
